@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stripe Payment</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+<form action="/api/payment" method="get">
+    <h1>Stripe Payment Integration</h1>
+    <button id="payButton">Pay $10</button>
+</form>
+
+<script src="https://js.stripe.com/v3/"></script>
+<script src="checkout.js"></script>
+</body>
+</html>
